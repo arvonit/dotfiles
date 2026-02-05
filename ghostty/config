@@ -48,16 +48,25 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
+# Fira Code
+# font-family = Fira Code Retina
+# adjust-cell-width = -5%
+# adjust-cell-height = 17.5%
+
+# JetBrains Mono
+adjust-cell-height = 10%
+
 cursor-style = block
 shell-integration-features = false
 cursor-style-blink = false
 macos-titlebar-style = native
-# font-family = Fira Code Retina
-# adjust-cell-width = -1
-# adjust-cell-height = 17%
-adjust-cell-height = 5%
 font-thicken = true
 font-size = 14
+window-inherit-working-directory = false
+window-height = 38
+window-width = 141
+# macos-dock-drop-behavior = new-window
+confirm-close-surface = false
 
 # Color palette
 palette = 0=#1d2021
