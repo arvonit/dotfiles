@@ -4,7 +4,9 @@ yellow=$(tput setaf 3)
 normal=$(tput sgr0)
 blue=$(tput setaf 4)
 green=$(tput setaf 2)
-PS1="\[$yellow\]\u\[$normal\]@\[$blue\]\h \[$green\]\W \[$normal\]$ "
+# PS1="\[$yellow\]\u\[$normal\]@\[$blue\]\h \[$green\]\W \[$normal\]$ "
+# PS1="[\u@\h:\W] $ "
+PS1="[\[$green\]\u\[$green\]@\[$green\]\h\[$normal\]:\[$blue\]\W\[$normal\]] $ "
 
 # Aliases
 alias ls="ls --color=auto -Fh"

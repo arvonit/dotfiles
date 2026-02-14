@@ -57,7 +57,7 @@ defaults write com.apple.dock show-recents -bool false
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 
-# Set the icon size of Dock items to 60 pixels
+# Set the icon size of Dock items to 58 pixels
 defaults write com.apple.dock tilesize -int 58
 
 # Use scale effect to minimize windows

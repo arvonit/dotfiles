@@ -8,11 +8,16 @@ fish/fish_variables
 fish/completions
 ghc
 configstore
+uv
+swiftpm
+
+# Kindle Previewer stores its config here, which I don't need to track
+Amazon
 
 # Stardew Valley stores its config and save data in ~/.config lol
 StardewValley
 
-# iTerm has a symlink to its config folder in ~/Library/Application Support :shrug:
+# iTerm has a symlink to its config folder in ~/Library/Application Support
 iterm2/AppSupport
 
 # qBittorrent stores its config in ~/.config

@@ -11,6 +11,7 @@ Plug 'tpope/vim-rsi' " Use readline/emacs shortcuts in insert mode and the comma
 Plug 'michaeljsmith/vim-indent-object'
 Plug 'bfrg/vim-cpp-modern' " Better C/C++ syntax highlighting
 Plug 'dag/vim-fish' " Syntax highlighting for fish script
+" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " Treesitter-based highlighting
 
 call plug#end()
 

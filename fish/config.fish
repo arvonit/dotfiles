@@ -26,11 +26,12 @@ end
 # Set install directories
 set -gx GHCUP_INSTALL_BASE_PREFIX $HOME
 set -gx BUN_INSTALL $HOME/.bun
+set -gx PNPM_HOME $HOME/Library/pnpm
 
 # Add directories to PATH
 fish_add_path -g $HOME/.local/bin $HOME/.cargo/bin $HOME/.cabal/bin $BUN_INSTALL/bin \
     $GHCUP_INSTALL_BASE_PREFIX/.cabal/bin $GHCUP_INSTALL_BASE_PREFIX/.ghcup/bin \
-    $HOME/Library/Python/3.11/bin # for pipenv
+    $PNPM_HOME
 
 # Set configuration folder to ~/.config
 # This is native to Linux, but some programs follow it on macOS
