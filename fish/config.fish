@@ -16,7 +16,15 @@ abbr --add tree 'eza -T'
 # Aliases
 alias mv='mv -i'
 alias resource='source ~/.config/fish/config.fish'
-alias chrome="open -a 'Google Chrome'"
+
+# Functions
+function chrome
+    if test (count $argv) -gt 0
+        open -na "Google Chrome" --args $argv
+    else
+        open -na "Google Chrome"
+    end
+end
 
 # Initialize homebrew environment variables (set HOMEBREW_PREFIX, add to PATH, etc.)
 if status --is-interactive
